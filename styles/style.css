@@ -29,13 +29,13 @@ section {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: white;
+  color: #ffffff;
 }
 .banner-container {
   padding-top: 150px;
 }
 .banner-sub-title {
-  color: rgba(255, 255, 255, 1);
+  color: #ffffff;
   font-family: Merriweather;
   font-size: 32px;
   font-weight: 400;
@@ -43,10 +43,37 @@ section {
   margin-bottom: 20px;
 }
 .banner-title {
-  color: rgba(255, 255, 255, 1);
+  color: #ffffff;
   font-family: Merriweather;
   font-size: 72px;
   font-weight: 900;
   line-height: 95px;
   text-align: center;
+}
+/* discount section styles */
+.discount-container {
+  width: 810px;
+  margin: 0 auto;
+  text-align: center;
+}
+.discount-title {
+  color: #ff0000;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 42px;
+}
+.discount-description {
+  color: #ff0000;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+}
+.discount-sub-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 48px;
 }
