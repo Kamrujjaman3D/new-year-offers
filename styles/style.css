@@ -14,6 +14,18 @@ section {
   margin: 0 auto;
   margin-top: 120px;
 }
+.btn-primary {
+  border-radius: 8px;
+  background: rgba(255, 0, 0, 1);
+  padding: 16px 32px;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
 /* banner section styles */
 #banner {
   width: 100%;
@@ -76,4 +88,130 @@ section {
   font-weight: 700;
   margin-top: 16px;
   margin-bottom: 48px;
+}
+/* wellcome section styles */
+.wellcome {
+  /* width: 100%; */
+  height: 600px;
+  /* background: linear-gradient(
+      180deg,
+      rgba(7, 2, 17, 0.461) 0%,
+      rgba(7, 2, 17, 0.216) 100%
+    ), */
+  background: linear-gradient(
+      90deg,
+      rgba(7, 2, 17, 0.753),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url('../images/Vectorrr.png') center/cover no-repeat;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 80px; */
+  text-align: left;
+  color: #ffffff;
+}
+.wellcome-container {
+  padding: 120px;
+}
+.wellcome-title {
+  width: 640px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 11%;
+  margin-bottom: 22px;
+}
+.wellcome-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 46px;
+}
+.wellcome-img {
+  padding: 68px 130px 67px 0px;
+}
+/* address section styles */
+.address {
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+.address-container {
+  text-align: center;
+  padding: 100px 375px;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 44px;
+}
+.unique-color {
+  color: red;
+}
+.address-container .btn-primary {
+  margin-top: 44px;
+}
+/* New Best offer section */
+.offer-section {
+  height: 465px;
+}
+.offer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.offer-text-container {
+  width: 33%;
+}
+.offer-sub-title {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.offer-title {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 900;
+  margin: 15px 0;
+  text-transform: capitalize;
+}
+.offer-description,
+.new-year-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+.offer-img-container {
+  max-width: 33%;
+}
+.offer-img-container img {
+  box-sizing: border-box;
+  border: 15px solid rgba(255, 0, 0);
+  border-radius: 50%;
+  padding: 25px;
+}
+.new-year-container {
+  display: flex;
+  flex-direction: column;
+}
+.new-year-title {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
 }
