@@ -16,7 +16,7 @@ section {
 }
 .btn-primary {
   border-radius: 8px;
-  background: rgba(255, 0, 0, 1);
+  background: #ff0000;
   padding: 16px 32px;
   color: rgba(255, 255, 255, 1);
   border: none;
@@ -91,13 +91,7 @@ section {
 }
 /* wellcome section styles */
 .wellcome {
-  /* width: 100%; */
   height: 600px;
-  /* background: linear-gradient(
-      180deg,
-      rgba(7, 2, 17, 0.461) 0%,
-      rgba(7, 2, 17, 0.216) 100%
-    ), */
   background: linear-gradient(
       90deg,
       rgba(7, 2, 17, 0.753),
@@ -214,4 +208,61 @@ section {
   font-family: Inter;
   font-size: 48px;
   font-weight: 700;
+}
+/* Holidays sell section styles */
+.sale-section {
+  /* padding: 50px 0; */
+  /* height: 660px; */
+  position: relative;
+}
+
+.sale-sub-title {
+  font-size: 18px;
+  color: #222;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 44px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.desc {
+  color: #555;
+  font-size: 14px;
+  width: 55%;
+  margin: 0 auto 50px;
+  line-height: 1.5;
+}
+
+.content {
+  position: relative;
+  height: 300px;
+  /* padding: 80px; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+}
+
+.box-img {
+  width: 230px;
+  position: absolute;
+  bottom: -100px;
+  left: 200px;
+  z-index: 1;
+}
+
+.discount-circle {
+  position: absolute;
+  right: 250px;
+  bottom: 20px;
+}
+.red-strip {
+  border-radius: 16px 0px 16px 16px;
+  background: rgba(255, 0, 0, 1);
+  height: 120px;
 }
