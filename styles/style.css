@@ -211,8 +211,6 @@ section {
 }
 /* Holidays sell section styles */
 .sale-section {
-  /* padding: 50px 0; */
-  /* height: 660px; */
   position: relative;
 }
 
@@ -237,32 +235,44 @@ section {
   margin: 0 auto 50px;
   line-height: 1.5;
 }
-
 .content {
   position: relative;
-  height: 300px;
-  /* padding: 80px; */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* flex-direction: column; */
+  height: 320px;
 }
-
 .box-img {
-  width: 230px;
+  width: 420px;
   position: absolute;
-  bottom: -100px;
-  left: 200px;
+  bottom: -150px;
+  left: 150px;
   z-index: 1;
 }
-
 .discount-circle {
   position: absolute;
-  right: 250px;
+  right: 100px;
   bottom: 20px;
 }
-.red-strip {
-  border-radius: 16px 0px 16px 16px;
-  background: rgba(255, 0, 0, 1);
-  height: 120px;
+/* portfoli section style */
+.portfolio-title {
+  color: rgba(7, 2, 17, 1);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: capitalize;
+}
+.description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  width: 60%;
+  margin: 15px 0px;
+}
+.portfolio-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1em;
+  column-gap: 1em;
 }
