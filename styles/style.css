@@ -240,9 +240,9 @@ section {
   height: 320px;
 }
 .box-img {
-  width: 420px;
+  width: 470px;
   position: absolute;
-  bottom: -150px;
+  bottom: -180px;
   left: 150px;
   z-index: 1;
 }
@@ -259,15 +259,19 @@ section {
   font-weight: 900;
   text-align: left;
   text-transform: capitalize;
+  margin: 18px 0px;
+}
+.portfolio-section h6 {
+  font-size: 30px;
 }
 .description {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 32px;
   text-align: left;
-  width: 60%;
+  width: 80%;
   margin: 15px 0px;
 }
 .portfolio-image-container {
@@ -275,4 +279,67 @@ section {
   flex-wrap: wrap;
   row-gap: 1em;
   column-gap: 1em;
+}
+/* subscribe section */
+.subscribe-section {
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.subscribe-container {
+  padding: 110px 70px;
+}
+.subscribe-container img {
+  width: 150px;
+  height: 150px;
+}
+.subscribe-title {
+  color: rgba(7, 2, 17, 1);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 18px 0px;
+}
+.subscribe-section p {
+  text-align: center;
+  margin: 0 auto;
+}
+/* .subs-btn {
+  margin: 20px 0px;
+}
+.subs-btn input {
+  padding: 20px 45px;
+  border: none;
+  width: 40%;
+  border-radius: 10px;
+}
+.subs-btn button {
+  border-radius: ;
+} */
+.input-user {
+  margin: 25px 0px;
+}
+.input-user input {
+  width: 520px;
+  height: 62px;
+  border: none;
+  border-radius: 50px 0px 0px 50px;
+  background: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 20px;
+}
+.input-user input:focus {
+  outline: none;
+}
+.input-user button {
+  width: 150px;
+  height: 62px;
+  border-radius: 0px 50px 50px 0px;
+  background: rgb(255, 0, 0);
+  margin-left: -8px;
+  padding: 16px 32px;
+  color: #fff;
+  border: none;
+  font-size: 20px;
 }
